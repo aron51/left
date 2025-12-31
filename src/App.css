@@ -32,12 +32,15 @@ html {
   flex-direction: column;
 }
 
+
 h1 {
   font-size: clamp(2rem, calc(10vw+1rem), 4rem);
+  margin: 0 0 1rem 0;
 }
 
 h2 {
   font-size: clamp(1rem, calc(1vw+1rem), 2rem);
+  margin: 1rem 0 0 0;
 }
 
 .dots {

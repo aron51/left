@@ -38,7 +38,7 @@ function App() {
         );
       })}
     </div>
-    <h2>{daysLeft} days left • {Math.floor((daysCompleted / 365) * 100)}% completed</h2>
+    <h2>{daysLeft} {daysLeft > 1 ? 'days' : 'day'} left • {Math.floor((daysCompleted / 365) * 100)}% completed</h2>
    </main>
   )
 }
